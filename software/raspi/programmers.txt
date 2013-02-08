@@ -1,0 +1,10 @@
+gpio0.name=Raspberry Pi GPIO (on-board)
+gpio0.communication=gpio
+gpio0.protocol=gpio0
+
+gpio1.name=Raspberry Pi GPIO (external ISP)
+gpio1.communication=gpio
+gpio1.protocol=gpio1
+
+
+
