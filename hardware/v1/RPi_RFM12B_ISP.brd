@@ -120,18 +120,10 @@
 </layers>
 <board>
 <plain>
-<text x="78.74" y="36.83" size="1.778" layer="25">TODO</text>
-<text x="78.74" y="33.02" size="1.778" layer="25">Check jumper labels correspond with position</text>
-<text x="0" y="-19.05" size="5.08" layer="25">PRELIMINARY</text>
-<text x="78.74" y="29.21" size="1.778" layer="25">Tidy silkscreen layout</text>
-<text x="78.74" y="25.4" size="1.778" layer="25">Fix minor layout issues</text>
-<text x="78.74" y="21.59" size="1.778" layer="25">Check final routing for antenna</text>
-<text x="78.74" y="17.78" size="1.778" layer="25">Add ground pour with .024" isolation</text>
-<text x="78.74" y="10.16" size="1.778" layer="25">Re-check all footprints</text>
 <rectangle x1="13.335" y1="12.7" x2="27.305" y2="15.24" layer="26" rot="R270"/>
 <text x="20.32" y="3.81" size="1.27" layer="26" ratio="12" rot="MR90" align="center-left">SN:</text>
-<text x="29.21" y="3.81" size="1.016" layer="26" ratio="12" rot="MR270" align="bottom-right">(C) Steve Marple 2012</text>
-<text x="27.305" y="3.81" size="1.016" layer="25" ratio="12" rot="MR270" align="bottom-right">License: CC BY-SA 3.0</text>
+<text x="29.21" y="3.81" size="1.016" layer="122" ratio="12" rot="MR270" align="bottom-right">(C) Steve Marple 2012</text>
+<text x="27.305" y="3.81" size="1.016" layer="122" ratio="12" rot="MR270" align="bottom-right">License: CC BY-SA 3.0</text>
 <text x="17.78" y="3.81" size="1.27" layer="26" ratio="12" rot="MR270" align="bottom-right">&gt;DRAWING_NAME</text>
 <text x="15.875" y="3.81" size="1.016" layer="26" ratio="12" rot="MR270" align="bottom-right">&gt;PLOT_DATE_TIME</text>
 <wire x1="0" y1="1.27" x2="0" y2="54.61" width="0" layer="20"/>
@@ -149,12 +141,9 @@
 <wire x1="69.215" y1="17.78" x2="70.485" y2="19.05" width="0" layer="20" curve="90"/>
 <wire x1="62.23" y1="0" x2="63.5" y2="1.27" width="0" layer="20" curve="90"/>
 <rectangle x1="14.605" y1="6.985" x2="23.495" y2="19.685" layer="41"/>
-<dimension x1="0" y1="0" x2="-6.35" y2="55.88" x3="-3.81" y3="27.94" layer="121" dtype="vertical"/>
-<dimension x1="40.64" y1="55.88" x2="40.64" y2="52.07" x3="48.26" y3="53.975" layer="121" dtype="vertical"/>
 <wire x1="25.4" y1="3.81" x2="25.4" y2="1.27" width="0" layer="20"/>
 <wire x1="22.225" y1="3.81" x2="22.225" y2="1.27" width="0" layer="20"/>
 <wire x1="34.925" y1="54.61" x2="34.925" y2="52.07" width="0" layer="20"/>
-<dimension x1="0" y1="60.96" x2="34.29" y2="60.96" x3="17.145" y3="67.31" layer="121" dtype="horizontal"/>
 <wire x1="36.195" y1="50.8" x2="38.735" y2="50.8" width="0" layer="20"/>
 <wire x1="34.925" y1="54.61" x2="33.655" y2="55.88" width="0" layer="20" curve="90"/>
 <wire x1="34.925" y1="52.07" x2="36.195" y2="50.8" width="0" layer="20" curve="90"/>
@@ -166,7 +155,6 @@
 <wire x1="25.4" y1="3.81" x2="24.13" y2="5.08" width="0" layer="20" curve="90"/>
 <wire x1="20.955" y1="0" x2="1.27" y2="0" width="0" layer="20"/>
 <wire x1="70.485" y1="40.005" x2="69.215" y2="41.275" width="0" layer="20" curve="90"/>
-<dimension x1="0" y1="-7.62" x2="70.485" y2="15.24" x3="35.2425" y3="-6.35" layer="121" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="SteveMarple">
@@ -499,31 +487,31 @@ http://dangerousprototypes.com</description>
 </class>
 </classes>
 <designrules>
-<description language="en">
-
-
-&lt;b&gt;Modifed Sparkfun Design Rules&lt;/b&gt;
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-These design rules have been derived from the Sparkfun design rules, but are even more conservative. Minimum widths and clearances have been increased to 12mil. The minimum value for via restring has been increased to 12mil, matching that already set for pads.
-</description>
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="12mil"/>
-<param name="mdWirePad" value="12mil"/>
-<param name="mdWireVia" value="12mil"/>
-<param name="mdPadPad" value="12mil"/>
-<param name="mdPadVia" value="12mil"/>
-<param name="mdViaVia" value="12mil"/>
-<param name="mdSmdPad" value="12mil"/>
-<param name="mdSmdVia" value="12mil"/>
-<param name="mdSmdSmd" value="12mil"/>
+<param name="mdWireWire" value="10mil"/>
+<param name="mdWirePad" value="10mil"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="10mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="10mil"/>
+<param name="mdSmdPad" value="10mil"/>
+<param name="mdSmdVia" value="10mil"/>
+<param name="mdSmdSmd" value="10mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="0.5mm"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="12mil"/>
+<param name="msWidth" value="10mil"/>
 <param name="msDrill" value="20mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -540,7 +528,7 @@ These design rules have been derived from the Sparkfun design rules, but are eve
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="12mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="12mil"/>
+<param name="rlMinViaOuter" value="10mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="10mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
@@ -701,7 +689,7 @@ These design rules have been derived from the Sparkfun design rules, but are eve
 </element>
 <element name="R4" library="SteveMarple" package="RES-AXIAL-0.4" value="10k" x="38.1" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.275" y="38.735" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="38.1" y="43.18" size="1.016" layer="27" font="vector" rot="R270" align="center"/>
+<attribute name="VALUE" x="38.1" y="45.085" size="1.016" layer="27" font="vector" rot="R270" align="center"/>
 </element>
 <element name="R10" library="SteveMarple" package="RES-AXIAL-0.4" value="10k" x="44.45" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.45" y="23.495" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
@@ -1017,9 +1005,9 @@ These design rules have been derived from the Sparkfun design rules, but are eve
 <wire x1="27.178" y1="54.61" x2="26.67" y2="54.102" width="0.3048" layer="1"/>
 <wire x1="31.75" y1="54.61" x2="27.178" y2="54.61" width="0.3048" layer="1"/>
 <wire x1="33.02" y1="53.34" x2="31.75" y2="54.61" width="0.3048" layer="1"/>
-<wire x1="41.91" y1="30.48" x2="44.45" y2="27.94" width="0.3048" layer="1"/>
-<wire x1="41.91" y1="37.338" x2="41.91" y2="30.48" width="0.3048" layer="1"/>
-<wire x1="36.576" y1="42.672" x2="41.91" y2="37.338" width="0.3048" layer="1"/>
+<wire x1="43.18" y1="29.21" x2="44.45" y2="27.94" width="0.3048" layer="1"/>
+<wire x1="43.18" y1="36.068" x2="43.18" y2="29.21" width="0.3048" layer="1"/>
+<wire x1="36.576" y1="42.672" x2="43.18" y2="36.068" width="0.3048" layer="1"/>
 <wire x1="36.576" y1="48.768" x2="36.576" y2="42.672" width="0.3048" layer="1"/>
 <wire x1="34.29" y1="51.054" x2="36.576" y2="48.768" width="0.3048" layer="1"/>
 <wire x1="34.29" y1="51.562" x2="34.29" y2="51.054" width="0.3048" layer="1"/>

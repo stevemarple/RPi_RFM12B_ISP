@@ -2197,9 +2197,9 @@ http://dangerousprototypes.com</description>
 <text x="292.1" y="10.16" size="2.54" layer="94">Attribution-ShareAlike</text>
 <text x="292.1" y="5.08" size="2.54" layer="94">3.0 Unported</text>
 <text x="292.1" y="20.32" size="2.54" layer="94">License:</text>
-<text x="20.32" y="144.78" size="3.81" layer="91">Status LED</text>
-<text x="43.18" y="180.34" size="1.778" layer="91">LED connected to D9 since</text>
-<text x="43.18" y="177.8" size="1.778" layer="91">D13 normally in use.</text>
+<text x="22.86" y="187.96" size="3.81" layer="91">Status LED</text>
+<text x="45.72" y="223.52" size="1.778" layer="91">LED connected to D9 since</text>
+<text x="45.72" y="220.98" size="1.778" layer="91">D13 normally in use.</text>
 <text x="271.78" y="38.1" size="3.81" layer="91">Microcontroller</text>
 </plain>
 <instances>
@@ -2248,9 +2248,9 @@ http://dangerousprototypes.com</description>
 <instance part="C3" gate="G$1" x="243.84" y="68.58"/>
 <instance part="GND6" gate="1" x="353.06" y="53.34"/>
 <instance part="C2" gate="G$1" x="172.72" y="99.06"/>
-<instance part="LED1" gate="G$1" x="35.56" y="165.1" rot="R180"/>
-<instance part="R2" gate="G$1" x="35.56" y="175.26" rot="R90"/>
-<instance part="GND7" gate="1" x="35.56" y="160.02"/>
+<instance part="LED1" gate="G$1" x="38.1" y="208.28" rot="R180"/>
+<instance part="R2" gate="G$1" x="38.1" y="218.44" rot="R90"/>
+<instance part="GND7" gate="1" x="38.1" y="203.2"/>
 <instance part="+3V7" gate="G$1" x="137.16" y="228.6"/>
 <instance part="AVR_A3" gate="G$1" x="330.2" y="86.36"/>
 <instance part="AVR_A1" gate="G$1" x="330.2" y="91.44"/>
@@ -2754,9 +2754,9 @@ http://dangerousprototypes.com</description>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="180.34" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="182.88" x2="33.02" y2="182.88" width="0.1524" layer="91"/>
-<label x="30.48" y="182.88" size="1.778" layer="95" rot="MR0"/>
+<wire x1="38.1" y1="223.52" x2="38.1" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="226.06" x2="35.56" y2="226.06" width="0.1524" layer="91"/>
+<label x="33.02" y="226.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$3" class="0">
