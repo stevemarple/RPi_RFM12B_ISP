@@ -23,10 +23,10 @@ programmer can be selected to program other microcontrollers from within the Ard
 
 ## License
 
-Hardware is released under the Creative Commons Attribution-ShareAlike
-3.0 Unported (CC BY-SA 3.0)
+Unless indicated otherwise hardware is released under the Creative
+Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 http://creativecommons.org/licenses/by-sa/3.0/
 
-Software is released under the GNU Lesser General Public License,
-version 2.1. 
+Unless indicated otherwise software is released under the GNU Lesser
+General Public License, version 2.1.
 http://www.gnu.org/licenses/lgpl-2.1.html
