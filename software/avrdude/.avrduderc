@@ -185,3 +185,23 @@ part
 	       "x x x x x x a1 a0 o o o o o o o o";
     ;
 ;
+
+programmer
+  id    = "gpio0";
+  desc  = "Use sysfs interface to bitbang GPIO lines";
+  type  = gpio;
+  reset = 8;
+  sck   = 11;
+  mosi  = 10;
+  miso  = 9;
+;
+
+programmer
+  id    = "gpio1";
+  desc  = "Use sysfs interface to bitbang GPIO lines";
+  type  = gpio;
+  reset = 7;
+  sck   = 11;
+  mosi  = 10;
+  miso  = 9;
+;
